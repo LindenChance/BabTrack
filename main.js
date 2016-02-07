@@ -1,0 +1,1 @@
+var dayact = function() {};
