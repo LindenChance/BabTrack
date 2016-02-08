@@ -1,0 +1,246 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies loading dependencies from /Users/lindenkirkby1/BabTrack/angular2/package.json
+6 warn package.json angular2-quickstart@1.0.0 No description
+7 warn package.json angular2-quickstart@1.0.0 No repository field.
+8 warn package.json angular2-quickstart@1.0.0 No README data
+9 verbose install where, deps [ '/Users/lindenkirkby1/BabTrack/angular2',
+9 verbose install   [ 'angular2',
+9 verbose install     'systemjs',
+9 verbose install     'es6-promise',
+9 verbose install     'es6-shim',
+9 verbose install     'reflect-metadata',
+9 verbose install     'rxjs',
+9 verbose install     'zone.js',
+9 verbose install     'concurrently',
+9 verbose install     'lite-server',
+9 verbose install     'typescript' ] ]
+10 verbose install where, peers [ '/Users/lindenkirkby1/BabTrack/angular2', [] ]
+11 verbose installManyTop reading for lifecycle /Users/lindenkirkby1/BabTrack/angular2/package.json
+12 info preinstall angular2-quickstart@1.0.0
+13 verbose installManyTop reading scoped package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/angular2/package.json
+14 verbose installManyTop reading scoped package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/concurrently/package.json
+15 verbose installManyTop reading scoped package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/es6-promise/package.json
+16 verbose installManyTop reading scoped package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/es6-shim/package.json
+17 verbose installManyTop reading scoped package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/lite-server/package.json
+18 verbose installManyTop reading scoped package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/reflect-metadata/package.json
+19 verbose installManyTop reading scoped package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/rxjs/package.json
+20 verbose installManyTop reading scoped package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/systemjs/package.json
+21 verbose installManyTop reading scoped package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/typescript/package.json
+22 verbose readDependencies loading dependencies from /Users/lindenkirkby1/BabTrack/angular2/package.json
+23 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/angular2/package.json
+24 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/concurrently/package.json
+25 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/es6-promise/package.json
+26 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/es6-shim/package.json
+27 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/lite-server/package.json
+28 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/reflect-metadata/package.json
+29 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/rxjs/package.json
+30 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/systemjs/package.json
+31 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/typescript/package.json
+32 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/.bin/concurrent/package.json
+33 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/.bin/lite-server/package.json
+34 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/.bin/tsc/package.json
+35 verbose targetResolver reading package data from /Users/lindenkirkby1/BabTrack/angular2/node_modules/.bin/tsserver/package.json
+36 verbose already installed skipping concurrently@^1.0.0 /Users/lindenkirkby1/BabTrack/angular2
+37 verbose already installed skipping lite-server@^2.0.1 /Users/lindenkirkby1/BabTrack/angular2
+38 verbose already installed skipping typescript@^1.7.5 /Users/lindenkirkby1/BabTrack/angular2
+39 verbose already installed skipping angular2@2.0.0-beta.3 /Users/lindenkirkby1/BabTrack/angular2
+40 verbose already installed skipping systemjs@0.19.6 /Users/lindenkirkby1/BabTrack/angular2
+41 verbose already installed skipping es6-promise@^3.0.2 /Users/lindenkirkby1/BabTrack/angular2
+42 verbose already installed skipping es6-shim@^0.33.3 /Users/lindenkirkby1/BabTrack/angular2
+43 verbose already installed skipping reflect-metadata@0.1.2 /Users/lindenkirkby1/BabTrack/angular2
+44 verbose already installed skipping rxjs@5.0.0-beta.0 /Users/lindenkirkby1/BabTrack/angular2
+45 silly cache add args [ 'zone.js@0.5.11', null ]
+46 verbose cache add spec zone.js@0.5.11
+47 silly cache add parsed spec { raw: 'zone.js@0.5.11',
+47 silly cache add   scope: null,
+47 silly cache add   name: 'zone.js',
+47 silly cache add   rawSpec: '0.5.11',
+47 silly cache add   spec: '0.5.11',
+47 silly cache add   type: 'version' }
+48 silly addNamed zone.js@0.5.11
+49 verbose addNamed "0.5.11" is a plain semver version for zone.js
+50 silly mapToRegistry name zone.js
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+54 verbose addNameVersion registry:https://registry.npmjs.org/zone.js not in flight; fetching
+55 verbose request uri https://registry.npmjs.org/zone.js
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 16:33:47
+58 verbose request id bcf439a91447e403
+59 verbose etag "3GKWDU3GG4G6O0C93TO8BD8RU"
+60 http request GET https://registry.npmjs.org/zone.js
+61 http 304 https://registry.npmjs.org/zone.js
+62 silly get cb [ 304,
+62 silly get   { date: 'Mon, 08 Feb 2016 03:33:47 GMT',
+62 silly get     via: '1.1 varnish',
+62 silly get     'cache-control': 'max-age=300',
+62 silly get     etag: '"3GKWDU3GG4G6O0C93TO8BD8RU"',
+62 silly get     age: '0',
+62 silly get     connection: 'keep-alive',
+62 silly get     'x-served-by': 'cache-akl6421-AKL',
+62 silly get     'x-cache': 'MISS',
+62 silly get     'x-cache-hits': '0',
+62 silly get     'x-timer': 'S1454902427.277966,VS0,VE203',
+62 silly get     vary: 'Accept' } ]
+63 verbose etag https://registry.npmjs.org/zone.js from cache
+64 verbose get saving zone.js to /Users/lindenkirkby1/.npm/registry.npmjs.org/zone.js/.cache.json
+65 silly cache afterAdd zone.js@0.5.11
+66 verbose afterAdd /Users/lindenkirkby1/.npm/zone.js/0.5.11/package/package.json not in flight; writing
+67 verbose afterAdd /Users/lindenkirkby1/.npm/zone.js/0.5.11/package/package.json written
+68 silly install resolved [ { name: 'zone.js',
+68 silly install resolved     version: '0.5.11',
+68 silly install resolved     description: 'Zones for JavaScript',
+68 silly install resolved     main: 'lib/zone.js',
+68 silly install resolved     files: [ 'lib', 'dist' ],
+68 silly install resolved     directories: { lib: 'lib', test: 'test' },
+68 silly install resolved     scripts:
+68 silly install resolved      { postinstall: 'tsd install',
+68 silly install resolved        tsc: 'tsc',
+68 silly install resolved        'tsc:w': 'tsc -w',
+68 silly install resolved        test: 'karma start karma.conf.js',
+68 silly install resolved        serve: 'python -m SimpleHTTPServer 8000' },
+68 silly install resolved     repository: { type: 'git', url: 'git://github.com/angular/zone.js.git' },
+68 silly install resolved     author: { name: 'Brian Ford' },
+68 silly install resolved     license: 'MIT',
+68 silly install resolved     bugs: { url: 'https://github.com/angular/zone.js/issues' },
+68 silly install resolved     dependencies: { 'es6-promise': '^3.0.2' },
+68 silly install resolved     devDependencies:
+68 silly install resolved      { gulp: '^3.8.11',
+68 silly install resolved        'gulp-util': '^3.0.7',
+68 silly install resolved        'gulp-rename': '^1.2.2',
+68 silly install resolved        'gulp-uglify': '^1.2.0',
+68 silly install resolved        'jasmine-core': '^2.2.0',
+68 silly install resolved        'karma-firefox-launcher': '^0.1.4',
+68 silly install resolved        'karma-safari-launcher': '^0.1.1',
+68 silly install resolved        'karma-sauce-launcher': '^0.2.10',
+68 silly install resolved        karma: '^0.13.14',
+68 silly install resolved        'karma-chrome-launcher': '^0.2.1',
+68 silly install resolved        'karma-jasmine': '^0.3.6',
+68 silly install resolved        'karma-sourcemap-loader': '^0.3.6',
+68 silly install resolved        'karma-webpack': '^1.7.0',
+68 silly install resolved        'ts-loader': '^0.6.0',
+68 silly install resolved        tsd: '^0.6.5',
+68 silly install resolved        typescript: '^1.7.3',
+68 silly install resolved        webpack: '^1.12.2',
+68 silly install resolved        'nodejs-websocket': '^1.2.0',
+68 silly install resolved        'vinyl-buffer': '^1.0.0',
+68 silly install resolved        'vinyl-source-stream': '^1.1.0' },
+68 silly install resolved     gitHead: '62955d151e1d90532881934f0da8598e6c93b384',
+68 silly install resolved     homepage: 'https://github.com/angular/zone.js#readme',
+68 silly install resolved     _id: 'zone.js@0.5.11',
+68 silly install resolved     _shasum: '97b84ef72ed1223b6c17c23d414b912c3db86827',
+68 silly install resolved     _from: 'zone.js@0.5.11',
+68 silly install resolved     _npmVersion: '2.14.7',
+68 silly install resolved     _nodeVersion: '4.2.2',
+68 silly install resolved     _npmUser: { name: 'btford', email: 'briantford@gmail.com' },
+68 silly install resolved     dist:
+68 silly install resolved      { shasum: '97b84ef72ed1223b6c17c23d414b912c3db86827',
+68 silly install resolved        tarball: 'http://registry.npmjs.org/zone.js/-/zone.js-0.5.11.tgz' },
+68 silly install resolved     maintainers: [ [Object] ],
+68 silly install resolved     _resolved: 'https://registry.npmjs.org/zone.js/-/zone.js-0.5.11.tgz',
+68 silly install resolved     readme: 'ERROR: No README data found!' } ]
+69 info install zone.js@0.5.11 into /Users/lindenkirkby1/BabTrack/angular2
+70 info installOne zone.js@0.5.11
+71 verbose installOne of zone.js to /Users/lindenkirkby1/BabTrack/angular2 not in flight; installing
+72 verbose lock using /Users/lindenkirkby1/.npm/_locks/zone-js-d77d929583bec4d5.lock for /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js
+73 silly install write writing zone.js 0.5.11 to /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js
+74 verbose unbuild node_modules/zone.js
+75 silly gentlyRm /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js is being purged from base /Users/lindenkirkby1/BabTrack/angular2
+76 verbose gentlyRm don't care about contents; nuking /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js
+77 verbose tar unpack /Users/lindenkirkby1/.npm/zone.js/0.5.11/package.tgz
+78 verbose tar unpacking to /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js
+79 silly gentlyRm /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js is being purged
+80 verbose gentlyRm don't care about contents; nuking /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js
+81 silly gunzTarPerm modes [ '755', '644' ]
+82 silly gunzTarPerm extractEntry package.json
+83 silly gunzTarPerm extractEntry README.md
+84 silly gunzTarPerm extractEntry LICENSE
+85 silly gunzTarPerm extractEntry dist/jasmine-patch.js
+86 silly gunzTarPerm extractEntry dist/jasmine-patch.min.js
+87 silly gunzTarPerm extractEntry dist/long-stack-trace-zone.js
+88 silly gunzTarPerm extractEntry dist/long-stack-trace-zone.min.js
+89 silly gunzTarPerm extractEntry dist/zone-microtask.js
+90 silly gunzTarPerm extractEntry dist/zone-microtask.min.js
+91 silly gunzTarPerm extractEntry dist/zone.js
+92 silly gunzTarPerm extractEntry dist/zone.min.js
+93 silly gunzTarPerm extractEntry lib/browser/jasmine-patch.ts
+94 silly gunzTarPerm extractEntry lib/browser/long-stack-trace-zone.ts
+95 silly gunzTarPerm extractEntry lib/browser/zone-microtask.ts
+96 silly gunzTarPerm extractEntry lib/browser/zone.ts
+97 silly gunzTarPerm extractEntry lib/core.ts
+98 silly gunzTarPerm extractEntry lib/jasmine/patch.ts
+99 silly gunzTarPerm extractEntry lib/keys.ts
+100 silly gunzTarPerm extractEntry lib/microtask.ts
+101 silly gunzTarPerm extractEntry lib/patch/geolocation.ts
+102 silly gunzTarPerm extractEntry lib/patch/browser.ts
+103 silly gunzTarPerm extractEntry lib/patch/event-target.ts
+104 silly gunzTarPerm extractEntry lib/patch/file-reader.ts
+105 silly gunzTarPerm extractEntry lib/patch/functions.ts
+106 silly gunzTarPerm extractEntry lib/patch/define-property.ts
+107 silly gunzTarPerm extractEntry lib/patch/mutation-observer.ts
+108 silly gunzTarPerm extractEntry lib/patch/promise.ts
+109 silly gunzTarPerm extractEntry lib/patch/property-descriptor.ts
+110 silly gunzTarPerm extractEntry lib/patch/register-element.ts
+111 silly gunzTarPerm extractEntry lib/patch/websocket.ts
+112 silly gunzTarPerm extractEntry lib/utils.ts
+113 silly gunzTarPerm extractEntry lib/wtf.ts
+114 silly gunzTarPerm extractEntry lib/zone.ts
+115 silly gunzTarPerm extractEntry lib/zones/long-stack-trace.ts
+116 verbose write writing to /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js/package.json
+117 info preinstall zone.js@0.5.11
+118 verbose readDependencies loading dependencies from /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js/package.json
+119 verbose readDependencies loading dependencies from /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js/package.json
+120 silly install resolved []
+121 verbose about to build /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js
+122 info build /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js
+123 info linkStuff zone.js@0.5.11
+124 silly linkStuff zone.js@0.5.11 has /Users/lindenkirkby1/BabTrack/angular2/node_modules as its parent node_modules
+125 verbose linkBins zone.js@0.5.11
+126 verbose linkMans zone.js@0.5.11
+127 verbose rebuildBundles zone.js@0.5.11
+128 info install zone.js@0.5.11
+129 info postinstall zone.js@0.5.11
+130 verbose unsafe-perm in lifecycle true
+131 info zone.js@0.5.11 Failed to exec postinstall script
+132 verbose unlock done using /Users/lindenkirkby1/.npm/_locks/zone-js-d77d929583bec4d5.lock for /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js
+133 verbose stack Error: zone.js@0.5.11 postinstall: `tsd install`
+133 verbose stack spawn ENOENT
+133 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+133 verbose stack     at ChildProcess.emit (events.js:110:17)
+133 verbose stack     at maybeClose (child_process.js:1015:16)
+133 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+134 verbose pkgid zone.js@0.5.11
+135 verbose cwd /Users/lindenkirkby1/BabTrack/angular2
+136 error Darwin 14.5.0
+137 error argv "node" "/usr/local/bin/npm" "install"
+138 error node v0.12.4
+139 error npm  v2.10.1
+140 error file sh
+141 error code ELIFECYCLE
+142 error errno ENOENT
+143 error syscall spawn
+144 error zone.js@0.5.11 postinstall: `tsd install`
+144 error spawn ENOENT
+145 error Failed at the zone.js@0.5.11 postinstall script 'tsd install'.
+145 error This is most likely a problem with the zone.js package,
+145 error not with npm itself.
+145 error Tell the author that this fails on your system:
+145 error     tsd install
+145 error You can get their info via:
+145 error     npm owner ls zone.js
+145 error There is likely additional logging output above.
+146 verbose exit [ 1, true ]
+147 verbose unbuild node_modules/zone.js
+148 info preuninstall zone.js@0.5.11
+149 info uninstall zone.js@0.5.11
+150 verbose unbuild rmStuff zone.js@0.5.11 from /Users/lindenkirkby1/BabTrack/angular2/node_modules
+151 info postuninstall zone.js@0.5.11
+152 silly gentlyRm /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js is being purged from base /Users/lindenkirkby1/BabTrack/angular2
+153 verbose gentlyRm don't care about contents; nuking /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js
+154 silly vacuum-fs purging /Users/lindenkirkby1/BabTrack/angular2/node_modules/zone.js
+155 silly vacuum-fs quitting because other entries in /Users/lindenkirkby1/BabTrack/angular2/node_modules
